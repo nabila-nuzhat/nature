@@ -1,0 +1,277 @@
+/*div
+{width: 600px;
+margin: auto;
+border: 2px solid red;}
+*/
+
+/*??????????????2 ta alada class name kano ak sathe ????????????
+.mymodalwidth.modal-dialog{
+	max-width: 800px;
+}
+
+.modal-footer{
+	justify-content: center;
+}
+
+.one{
+	width: 40%;
+}
+
+.two{
+	width: 30%;
+}
+
+.three{
+	width: 20%;
+}
+
+.carousel-indicators [data-bs-target]
+{width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: red;}
+
+.mywidth{
+	border: 2px solid red;
+
+}
+
+nav div a{
+text-align: right;
+}
+*/
+.header{
+	background-image: url(../image/header-hero.jpg);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #ffd835;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	color: #ffd835;
+}
+.header{
+	padding-top: 20px;
+}
+.header h3{
+color: #fff;
+font-size: 33px;
+font-weight: 600;
+margin-bottom: 12px;
+}
+
+.header h1{
+color: #fff;
+font-size: 100px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.header p{
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 25px;
+}
+
+.header img{
+	width: 11vh;
+}
+
+.header nav ul li:last-child{
+	border: 1px solid #fff;
+	border-radius: 2px;
+}
+.btn-learn{
+ 	background-color: #ffd835;
+  padding: 14px 35px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.height{
+	align-items: center;
+	/*margin-top: 50px;*/
+	min-height: 70vh;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+border-color: #ffd835;
+background-color: #ffd835;
+font-size: 30px;
+}
+
+.services{
+margin: 53px 0;
+text-align: center;
+}
+
+.services h2{
+  font-size: 40px;
+  color: #7d7f7a;
+  margin-bottom: 18px;
+}
+
+.services span{
+	display: block;
+	height: 3px;
+	background-color: #ffda37;
+	width: 60px;
+	margin: auto;
+}
+
+.services img{
+	margin-top: 50px;
+}
+.zoom{
+	transition: transform .2s;
+}
+.zoom:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.services h3{
+	margin: 20px 0 10px;
+	text-align: left;
+	padding-left: 10px;
+	padding: 0 20px;
+	font-size: 20px;
+}
+
+.services p{
+	margin-bottom: 60px;
+	font-size: 12px;
+	text-align: left;
+	padding: 2px 20px 0;
+}
+
+.quote{
+	background-color: #f6f8f5;
+	padding: 40px 0; 
+}
+
+.quote h2{
+	color: #72756e;
+	font-size: 25px;
+	margin-top: 22px;
+
+}
+
+.quote i{
+	color: #cccfc6;
+	font-size: 60px;
+}
+
+.quote img{
+	max-width: 50px;
+	margin: 30px 0 10px;
+}
+
+.quote p{
+	font-size: 12px;
+	color: #6d6f6a;
+}
+.about{
+	padding: 80px 0;
+}
+.about h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+.about h4{
+	font-size: 30px;
+	margin: 20px 0 30px;
+}
+ .about a{
+ 	margin-top: 28px;
+ 	padding: 10px 20px;
+ 	border: 1px solid #000;
+ }
+
+ .question{
+ 	background-image: url(../image/footer-hero-big.jpg);
+ 	min-height: 70vh;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	padding: 70px 0;
+ }
+
+.question h2{
+  	color: #4d6452;
+  	font-size: 50px;
+  	font-weight: 500;
+  	margin-bottom: 25px;
+  }
+
+.question p{
+	margin-bottom: 35px;
+}
+
+.question button{
+	background-color: #ffda37;
+	padding: 15px 35px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	}
+
+
+footer .nav-link,
+footer h5{
+	color: #484e42;
+	font-size: 12px;
+}
+
+footer h5{
+	/*line-height: 64px;*/
+	padding: 25px 0;
+}
+
+footer img{
+	width: 60px;
+}
+
+.navbar-expand-md{
+	  margin-top: 10px;
+}
+
+.mx-auto{
+	padding: 10px 0;
+}
+
+footer nav{
+	justify-content: center;
+	margin: auto;
+}
+footer nav ul li{
+	display: inline-block;
+}
+
+footer nav ul li a{
+	text-decoration: none;
+}
+
+@media (max-width: 768px){
+	.myimg{
+		min-width: 100%;
+	}
+	.about a{
+		margin-bottom: 20px;
+	}
+}
